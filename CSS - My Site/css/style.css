@@ -1,33 +1,45 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 h1 {
     margin-top: 0px;
+   
 }
 
 .top-container {
     background-color: steelblue;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    border: solid 10px;
-}
+    padding-top: 100px;
+    position: relative;
+   }
 
 .middle-container {
     background-color: red;
     height: 200px;
     width: 200px;
-    border: solid 20px;
-    margin-left: 260px;
 }
 
 .bottom-container {
     background-color: gold;
     height: 200px;
     width: 200px;
-    border: solid 10px;
-    margin-left: 500px;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    right: 300px;
+    top: 50px;
+    position: absolute;
 }
 
 
