@@ -4,10 +4,21 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
-h1 {
-    margin-top: 0px;
-   
+body p {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: normal;
 }
+
+h1 {
+    color: black;
+    font-size: 3em;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-weight: normal;
+}
+
 
 .top-container {
     background-color: steelblue;
@@ -38,5 +49,25 @@ h1 {
     top: 50px;
     position: absolute;
 }
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.first-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.second-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
 
 
