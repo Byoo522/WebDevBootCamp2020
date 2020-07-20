@@ -1,13 +1,10 @@
 body {
+    color: slateblue;
     margin: 0;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
 }
-
-body p {
-    font-size: 1.3rem;
-    color: black;
-    font-weight: normal;
+    
 }
 
 h1 {
@@ -19,6 +16,33 @@ h1 {
     font-weight: normal;
 }
 
+h2 {
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 2;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: normal;
+}
+
+hr {
+    border: dotted gold;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: slateblue;
+    font-family: 'Press Start 2P', cursive;
+    margin: 10px 20px;
+}
+
+a:hover {
+    color: lightgoldenrodyellow;
+}
 
 .top-container {
     background-color: steelblue;
@@ -27,11 +51,14 @@ h1 {
    }
 
 .middle-container {
-   
+   margin: 0 auto;
+   background-color: darkslategray;
 }
 
 .bottom-container {
-    
+    background-color: lightgray;
+    margin: 0;
+    padding: 1rem;
 }
 
 .web {
@@ -40,13 +67,13 @@ h1 {
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
 .top-cloud {
     right: 300px;
-    top: 50px;
+    top: 40px;
     position: absolute;
 }
 
@@ -54,20 +81,71 @@ h1 {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .first-img {
     width: 25%;
     float: left;
     margin-right: 30px;
+    background-color: darkslategray;
+    border-radius: 50%;
 }
 
 .second-img {
+    background-color: lightcyan;
     width: 25%;
     float: right;
     margin-left: 30px;
+    border-radius: 50%;
 }
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.contact-me {
+    margin: 0 auto 0 auto;
+    background-color: darkslategray;
+    background: darkslategray;
+}
+
+.btn {
+    background: #781c9c;
+    background-image: -webkit-linear-gradient(top, #781c9c, #2810de);
+    background-image: -moz-linear-gradient(top, #781c9c, #2810de);
+    background-image: -ms-linear-gradient(top, #781c9c, #2810de);
+    background-image: -o-linear-gradient(top, #781c9c, #2810de);
+    background-image: linear-gradient(to bottom, #781c9c, #2810de);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #d0e342;
+    background-image: -webkit-linear-gradient(top, #d0e342, #8a8a0e);
+    background-image: -moz-linear-gradient(top, #d0e342, #8a8a0e);
+    background-image: -ms-linear-gradient(top, #d0e342, #8a8a0e);
+    background-image: -o-linear-gradient(top, #d0e342, #8a8a0e);
+    background-image: linear-gradient(to bottom, #d0e342, #8a8a0e);
+    text-decoration: none;
+  }
 
 
 
